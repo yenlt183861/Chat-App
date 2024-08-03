@@ -3,8 +3,6 @@ import 'package:chat_app/src/configs/resources/app_font.dart';
 import 'package:chat_app/src/custom_widgets/loading_showable.dart';
 import 'package:chat_app/src/custom_widgets/popup_notification.dart';
 import 'package:chat_app/src/custom_widgets/tap_area.dart';
-import 'package:chat_app/src/custom_widgets/toast_showable/toast_message_type.dart';
-import 'package:chat_app/src/custom_widgets/toast_showable/toast_showable.dart';
 import 'package:chat_app/src/datas/enums/status_loading.dart';
 import 'package:chat_app/src/screens/app_router.dart';
 import 'package:chat_app/src/screens/authentication/login/components/barrel_components.dart';
