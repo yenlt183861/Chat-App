@@ -55,11 +55,11 @@ class _Body extends StatelessWidget {
                   onTap: () {
                     Navigator.of(context).pop();
                   },
-                  borderRadius: BorderRadius.circular(20),
+                  borderRadius: appDefaultBorderRadius,
                   child: Container(
                     padding: const EdgeInsets.all(12),
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: appDefaultBorderRadius,
                       color: AppColor.white.withOpacity(0.67),
                       boxShadow: [
                         BoxShadow(

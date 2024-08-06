@@ -1,5 +1,6 @@
 import 'package:chat_app/src/configs/resources/barrel_resources.dart';
 import 'package:chat_app/src/custom_widgets/primary_button.dart';
+import 'package:chat_app/src/utils/size_config.dart';
 import 'package:flutter/material.dart';
 
 class ButtonBack extends StatelessWidget {
@@ -19,11 +20,11 @@ class ButtonBack extends StatelessWidget {
           Navigator.of(context).pop();
         }
       },
-      borderRadius: BorderRadius.circular(20),
+      borderRadius: appDefaultBorderRadius,
       child: Container(
         padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(20),
+          borderRadius: appDefaultBorderRadius,
           color: AppColor.white.withOpacity(0.67),
           boxShadow: [
             BoxShadow(

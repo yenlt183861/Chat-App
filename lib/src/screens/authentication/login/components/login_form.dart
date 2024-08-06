@@ -74,7 +74,7 @@ class _LoginFormState extends State<LoginForm> {
               color: AppColor.white,
             ),
             title: 'Login',
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: appDefaultBorderRadius,
             padding: const EdgeInsets.symmetric(vertical: 16),
           ),
         ],

@@ -50,7 +50,7 @@ class _RegisterFormState extends State<RegisterForm> {
               color: AppColor.white,
             ),
             title: 'Register',
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: appDefaultBorderRadius,
             padding: const EdgeInsets.symmetric(vertical: 16),
           ),
           const GapH(16),
